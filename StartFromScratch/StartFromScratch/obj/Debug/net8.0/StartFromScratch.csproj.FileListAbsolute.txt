@@ -28,3 +28,4 @@ C:\Users\Admin\Desktop\Mes devs\StartFromScratch\StartFromScratch\obj\Debug\net8
 C:\Users\Admin\Desktop\Mes devs\StartFromScratch\StartFromScratch\obj\Debug\net8.0\ref\StartFromScratch.dll
 C:\Users\Admin\Desktop\Mes devs\StartFromScratch\StartFromScratch\obj\Debug\net8.0\StartFromScratch.RazorAssemblyInfo.cache
 C:\Users\Admin\Desktop\Mes devs\StartFromScratch\StartFromScratch\obj\Debug\net8.0\StartFromScratch.RazorAssemblyInfo.cs
+C:\Users\Admin\Desktop\Mes devs\StartFromScratch\StartFromScratch\obj\Debug\net8.0\StartFromScratch.sourcelink.json

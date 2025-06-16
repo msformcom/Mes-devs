@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\Mes devs\\StartFromScratch\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{19FD38C5-B01B-4556-8D22-AE6B4D1AF670}|StartFromScratch\\StartFromScratch.csproj|c:\\users\\admin\\desktop\\mes devs\\startfromscratch\\startfromscratch\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19FD38C5-B01B-4556-8D22-AE6B4D1AF670}|StartFromScratch\\StartFromScratch.csproj|solutionrelative:startfromscratch\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{19FD38C5-B01B-4556-8D22-AE6B4D1AF670}|StartFromScratch\\StartFromScratch.csproj|c:\\users\\admin\\desktop\\mes devs\\startfromscratch\\startfromscratch\\views\\employe\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{19FD38C5-B01B-4556-8D22-AE6B4D1AF670}|StartFromScratch\\StartFromScratch.csproj|solutionrelative:startfromscratch\\views\\employe\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -11,12 +15,8 @@
       "RelativeMoniker": "D:0:0:{19FD38C5-B01B-4556-8D22-AE6B4D1AF670}|StartFromScratch\\StartFromScratch.csproj|solutionrelative:startfromscratch\\controllers\\employecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19FD38C5-B01B-4556-8D22-AE6B4D1AF670}|StartFromScratch\\StartFromScratch.csproj|c:\\users\\admin\\desktop\\mes devs\\startfromscratch\\startfromscratch\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19FD38C5-B01B-4556-8D22-AE6B4D1AF670}|StartFromScratch\\StartFromScratch.csproj|solutionrelative:startfromscratch\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19FD38C5-B01B-4556-8D22-AE6B4D1AF670}|StartFromScratch\\StartFromScratch.csproj|c:\\users\\admin\\desktop\\mes devs\\startfromscratch\\startfromscratch\\models\\employe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19FD38C5-B01B-4556-8D22-AE6B4D1AF670}|StartFromScratch\\StartFromScratch.csproj|solutionrelative:startfromscratch\\models\\employe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{19FD38C5-B01B-4556-8D22-AE6B4D1AF670}|StartFromScratch\\StartFromScratch.csproj|c:\\users\\admin\\desktop\\mes devs\\startfromscratch\\startfromscratch\\viewmodels\\employe\\indexvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19FD38C5-B01B-4556-8D22-AE6B4D1AF670}|StartFromScratch\\StartFromScratch.csproj|solutionrelative:startfromscratch\\viewmodels\\employe\\indexvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{19FD38C5-B01B-4556-8D22-AE6B4D1AF670}|StartFromScratch\\StartFromScratch.csproj|c:\\users\\admin\\desktop\\mes devs\\startfromscratch\\startfromscratch\\views\\employe\\addition.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,28 +42,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Mes devs\\StartFromScratch\\StartFromScratch\\Views\\Employe\\Index.cshtml",
-              "RelativeDocumentMoniker": "StartFromScratch\\Views\\Employe\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Mes devs\\StartFromScratch\\StartFromScratch\\Views\\Employe\\Index.cshtml*",
-              "RelativeToolTip": "StartFromScratch\\Views\\Employe\\Index.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-16T13:42:46.126Z",
-              "EditorCaption": ""
+              "DocumentIndex": 3,
+              "Title": "IndexVM.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Mes devs\\StartFromScratch\\StartFromScratch\\ViewModels\\Employe\\IndexVM.cs",
+              "RelativeDocumentMoniker": "StartFromScratch\\ViewModels\\Employe\\IndexVM.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Mes devs\\StartFromScratch\\StartFromScratch\\ViewModels\\Employe\\IndexVM.cs",
+              "RelativeToolTip": "StartFromScratch\\ViewModels\\Employe\\IndexVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T14:04:07.236Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Employe.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Mes devs\\StartFromScratch\\StartFromScratch\\Models\\Employe.cs",
-              "RelativeDocumentMoniker": "StartFromScratch\\Models\\Employe.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Mes devs\\StartFromScratch\\StartFromScratch\\Models\\Employe.cs",
-              "RelativeToolTip": "StartFromScratch\\Models\\Employe.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T13:11:48.268Z",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Mes devs\\StartFromScratch\\StartFromScratch\\Views\\Employe\\Index.cshtml",
+              "RelativeDocumentMoniker": "StartFromScratch\\Views\\Employe\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Mes devs\\StartFromScratch\\StartFromScratch\\Views\\Employe\\Index.cshtml",
+              "RelativeToolTip": "StartFromScratch\\Views\\Employe\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T13:42:46.126Z",
               "EditorCaption": ""
             },
             {
@@ -76,8 +75,7 @@
               "RelativeToolTip": "StartFromScratch\\ViewModels\\Employe\\AdditionVM.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T12:37:00.337Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T12:37:00.337Z"
             },
             {
               "$type": "Document",
@@ -94,26 +92,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Mes devs\\StartFromScratch\\StartFromScratch\\Program.cs",
               "RelativeDocumentMoniker": "StartFromScratch\\Program.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Mes devs\\StartFromScratch\\StartFromScratch\\Program.cs",
-              "RelativeToolTip": "StartFromScratch\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Mes devs\\StartFromScratch\\StartFromScratch\\Program.cs*",
+              "RelativeToolTip": "StartFromScratch\\Program.cs*",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABkAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-16T11:49:04.71Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "EmployeController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Mes devs\\StartFromScratch\\StartFromScratch\\Controllers\\EmployeController.cs",
               "RelativeDocumentMoniker": "StartFromScratch\\Controllers\\EmployeController.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Mes devs\\StartFromScratch\\StartFromScratch\\Controllers\\EmployeController.cs*",
-              "RelativeToolTip": "StartFromScratch\\Controllers\\EmployeController.cs*",
-              "ViewState": "AgIAABUAAAAAAAAAAAAQwBwAAAAmAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Mes devs\\StartFromScratch\\StartFromScratch\\Controllers\\EmployeController.cs",
+              "RelativeToolTip": "StartFromScratch\\Controllers\\EmployeController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAmwBMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-16T11:52:04.64Z",
               "EditorCaption": ""

@@ -11,13 +11,14 @@ namespace StartFromScratch.Controllers
  
     public class EmployeController : Controller
     {
+        private readonly List<Employe> dataEmployes;
 
-        List<Employe> DataEmployes = new List<Employe>()
+        // Dans le constructeur je demande à l'injection de dépendance de me donner la liste des employes
+        public EmployeController([FromServices] List<Employe> dataEmployes)
         {
-            new Employe(){Nom="Mauras", Prenom="Dominique", Actif=true, DateEntree=DateTime.Now, Matricule="007", Salaire=1000000000},
-            new Employe(){Nom="Gates", Prenom="Bill", Actif=true, DateEntree=DateTime.Now, Matricule="009", Salaire=100000000},
-            new Employe(){Nom="Waine", Prenom="John", Actif=false, DateEntree=DateTime.Now, Matricule="005", Salaire=1000000}
-        };
+            // Je la stocke localement pour utilisation dans les action
+            this.dataEmployes = dataEmployes;
+        }
 
 
         // Créer une action qui affiche dans une page HTML 
@@ -28,8 +29,8 @@ namespace StartFromScratch.Controllers
         {
             var model = new IndexVM()
             {
-                Liste = DataEmployes,
-                MasseSalariale = DataEmployes.Where(c => c.Actif).Sum(c => c.Salaire)
+                Liste = dataEmployes,
+                MasseSalariale = dataEmployes.Where(c => c.Actif).Sum(c => c.Salaire)
             };
             return View(model);
         }
@@ -38,7 +39,20 @@ namespace StartFromScratch.Controllers
         // GET : Employe/AugmenterSalaires => Augmenter les salaires de 10%
         // Réafficher les employes + masse salariale
         // return View("Index",model)
-
+        public IActionResult AugmenterSalaires()
+        {
+            // Augpenter les salaires de la liste de 10%
+            foreach(var e in dataEmployes)
+            {
+                e.Salaire *= 1.1M;
+            }
+            var model = new IndexVM()
+            {
+                Liste = dataEmployes,
+                MasseSalariale = dataEmployes.Where(c => c.Actif).Sum(c => c.Salaire)
+            };
+            return View("Index", model);
+        }
 
 
         // Méthode du controller (public sinon ne fonctionne pas)

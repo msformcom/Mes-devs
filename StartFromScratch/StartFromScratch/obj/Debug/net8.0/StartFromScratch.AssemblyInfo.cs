@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StartFromScratch")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+70960a474bdc6db943755246e84509aacdd128d0")]
 [assembly: System.Reflection.AssemblyProductAttribute("StartFromScratch")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StartFromScratch")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
