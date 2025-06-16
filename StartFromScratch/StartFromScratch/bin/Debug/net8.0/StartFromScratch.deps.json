@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "StartFromScratch/1.0.0": {
+        "runtime": {
+          "StartFromScratch.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "StartFromScratch/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
